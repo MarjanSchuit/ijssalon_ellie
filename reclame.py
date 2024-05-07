@@ -7,7 +7,6 @@ def aanbieding_1(smaak, prijs, korting):
 uitkomst_aanbieding = aanbieding_1('aardbei', 4, 0.1)
 print (f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {uitkomst_aanbieding[0]},van {uitkomst_aanbieding[1]} euro voor {"%.2f" % uitkomst_aanbieding[2]} euro.")
 
-
 def inkomsten_totaal(inkomsten):
     inkomsten = (sum(inkomsten))
     BTW = int (inkomsten * 0.09)
